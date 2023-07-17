@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="HOME"
+
+            />
+        <item
+            android:id="@+id/nav_search"
+            android:title="@string/search"
+
+            />
+        <item
+            android:id="@+id/nav_add_missing_place"
+            android:title="@string/add_missing_place"
+
+            />
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="@string/all_categories"
+
+            />
+
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="@string/login"
+
+                    />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="@string/profile"
+
+                    />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+
+                    />
+
+
+            </group>
+        </menu>
+
+
+    </item>
+    <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_restaurants"
+                    android:title="@string/restaurants" />
+                <item
+                    android:id="@+id/nav_bank"
+                    android:title="@string/banks" />
+                <item
+                    android:id="@+id/nav_education"
+                    android:title="@string/education" />
+                <item
+                    android:id="@+id/nav_shop"
+                    android:title="@string/shops" />
+
+
+            </group>
+        </menu>
+
+
+    </item>
+    <item android:title="Share">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="@string/share" />
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="@string/rate_us" />
+
+
+
+            </group>
+        </menu>
+
+
+    </item>
+
+</menu>
